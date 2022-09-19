@@ -1,4 +1,13 @@
-jumin = "990120-1234567"
+url = "http://naver.com"
 
-print("성별 : " + jumin[7])
-print("연 : " + jumin[0:2])
+my_str = url.replace("http://","")
+my_str = my_str[:my_str.index(".")]
+password = my_str[0:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
+
+print("{0}의 패스워드는 {1}입니다".format(url,password))
+
+
+
+
+
+
