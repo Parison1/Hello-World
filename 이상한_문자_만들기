@@ -5,9 +5,8 @@ def solution(s):
         for j in range(0, len(s[i])):
             if j % 2 == 0:                     
                 answer.append(s[i][j].upper())
-            if j % 2 != 0:
+            else:
                 answer.append(s[i][j].lower())
         answer.append(' ')
     answer = ''.join(answer)
     return answer[:-1]
-
