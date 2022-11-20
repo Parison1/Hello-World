@@ -20,7 +20,6 @@ def solution(n, m):
 #         t = c % d
 #         c, d = d, t
 #     answer = [c, int(a*b/c)]
-
 #     return answer
 
 # 유클리드 호제법으로 푼 예시이다. 유클리드 호제법은 소인수 분해 등을 하지 않고 최대공약수를 구할 수 있는 방법
